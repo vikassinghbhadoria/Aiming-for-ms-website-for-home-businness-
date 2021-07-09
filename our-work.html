@@ -143,9 +143,9 @@
 					<li class="nav-item">
 						<a class="nav-link active" data-toggle="pill" href="#all">All</a>
 					</li>
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="nav-link" data-toggle="pill" href="#services">Services</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 			<div class="input-group col-md-4 fw-search-container left-col">
@@ -1617,6 +1617,15 @@
 
 
 <script type="text/javascript">
+	var figure = $(".video").hover( hoverVideo, hideVideo );
+
+	function hoverVideo(e) {  
+		$('video', this).get(0).play(); 
+	}
+
+	function hideVideo(e) {
+		$('video', this).get(0).pause(); 
+	}
 	$(document).ready(function() {
 
 
