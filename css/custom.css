@@ -1222,6 +1222,7 @@ small {
   background: url("../images/home/HP_Sec1_2.jpg");
   background-size: cover;
 }
+
 .landing-section .slide-four {
   background: url("../images/home/HP-Sec1-4.jpg");
   background-size: cover;
@@ -4895,7 +4896,7 @@ body .onepage-pagination li a.active:before {
   top: 2rem;
 }
 
-@media (max-width: 175px) {
+@media (max-width: 575px) {
   html {
     font-size: 11.5px;
   }
@@ -5070,6 +5071,10 @@ body .onepage-pagination li a.active:before {
   }
   .landing-section .slide-two {
     background: url("../images/home/mobile/2.jpg");
+    background-size: cover;
+  }
+  .landing-section .slide-three {
+    background: url("../images/home/mobile/3.jpg");
     background-size: cover;
   }
   .landing-section .slide-four {
