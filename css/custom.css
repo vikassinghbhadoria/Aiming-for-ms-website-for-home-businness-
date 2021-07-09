@@ -4895,7 +4895,7 @@ body .onepage-pagination li a.active:before {
   top: 2rem;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 175px) {
   html {
     font-size: 11.5px;
   }
@@ -5070,10 +5070,6 @@ body .onepage-pagination li a.active:before {
   }
   .landing-section .slide-two {
     background: url("../images/home/mobile/2.jpg");
-    background-size: cover;
-  }
-  .landing-section .slide-three {
-    background: url("../images/home/mobile/3.jpg");
     background-size: cover;
   }
   .landing-section .slide-four {
