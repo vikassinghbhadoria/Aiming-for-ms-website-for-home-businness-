@@ -1630,7 +1630,8 @@ small {
   width: 33.33%;
   cursor: pointer;
 }
-.contact-tabs .nav-link {
+.contact-tabs .nav-link{
+
   padding: 2rem 1rem 0.5rem 0;
   margin-bottom: 0;
   font-size: 1.25rem;
@@ -1641,8 +1642,11 @@ small {
   border-top: 0.125rem solid #d5d5d5;
 }
 .contact-tabs .nav-link.active {
-  color: #000;
+  color: black;
   border-top: 0.1875rem solid #000;
+}
+.contact-tabs .nav-link:hover{
+  color: #000;
 }
 .contact-tabs .title-txt {
   font-size: 1.25rem;
